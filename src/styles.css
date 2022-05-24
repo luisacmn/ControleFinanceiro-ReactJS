@@ -1,0 +1,112 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+#header {
+  background-color: rgb(31, 169, 179);
+  padding: 10px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+/*RESUME*/
+#resume {
+  gap: 10px;
+  justify-content: space-between;
+
+  margin: 20px auto;
+}
+
+.resume-item {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 5px 15px;
+  width: 30%;
+}
+
+.resume-item p {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.resume-item span {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/*FORM*/
+#form {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px 0px;
+
+  margin: auto;
+}
+
+#form .form-txt label {
+  width: 80%;
+  text-align: left;
+}
+
+#form .form-txt input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  outline: none;
+  width: 80%;
+}
+
+#form .form-radio {
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+}
+
+#form .form-radio label {
+  margin-right: 20px;
+  margin-left: 5px;
+}
+
+#form .form-button {
+  align-items: center;
+  margin: auto;
+}
+
+#form button {
+  background-color: rgb(49, 157, 165);
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  color: #fff;
+}
+
+/*TABLE*/
+
+table,
+th,
+td {
+  border: 1px solid lightgray;
+}
+
+tbody {
+  background-color: #fff;
+}
+
+table {
+  margin: auto;
+  margin-top: 20px;
+  padding: 0;
+  width: 100%;
+  height: 50px;
+}
+
+.footer {
+  margin-top: 20px;
+}
